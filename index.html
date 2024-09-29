@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my digital portfolio website</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body id="smooth-wrapper" class="font-[poppins,sans-serif]  text-sm md:text-base bg-gray-950 capitalize w-full">
+    <div id="smooth-content">
+    <div id="home" class="font-[500] lg:flex flex flex-col items-center  min-h-[720px] border-solid w-full">
+        <nav id="menu"
+            class="duration-500 flex fixed z-50  h-16 lg:w-[90%]  w-full md:w-full bg-black text-white md:flex justify-around lg:pt-1 pt-4 lg:items-center rounded-xl">
+            <div id="logo" class="flex text-3xl">
+                <span class="w-10 h-10 rounded-lg flex justify-center items-center  bg-[#D6FF28] text-black">S</span>
+                <h1 class="lowercase hidden md:flex"> andeep.</h1>
+            </div>
+            <ul class="lg:flex lg:ml-20  lg:flex-row lg:mt-1 opacity-0 duration-300 lg:opacity-100 flex flex-col  h-[60%] lg:w-[60%] w-10 justify-between items-center">
+                <li class="text-center hover:text-[#D6FF28]"><a class="nav-link" href="#home">Home</a></li>
+                <li class="text-center hover:text-[#D6FF28]"><a class="nav-link" href="#about_me">About</a></li>
+                <li class="text-center hover:text-[#D6FF28]"><a class="nav-link" href="#services">Services</a></li>
+                <li class="text-center hover:text-[#D6FF28]"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="text-center hover:text-[#D6FF28]"><a class="nav-link" href="#blogs">Blog</a></li>
+                <button class="w-36 h-9   md:mt-[-3px] mt-10   text-black bg-[#D6FF28] uppercase rounded-sm hover:bg-black hover:text-[#D6FF28] hover:border-[#D6FF28] hover:border-2"><a href="#contact">contect me</a></button>
+            </ul>
+            <div onclick="Mode()" id="mode" class="flex justify-center items-center text-2xl w-10 h-10 border-2 border-[#D6FF28] rounded-md bg-gray-500 text-white">
+                <div><i id="mode_icon" class="fa-solid fa-moon"></i></div>
+            </div>
+           
+            <div class="lg:hidden border-2 w-10 h-10 pl-0.5 rounded-md border-[#D6FF28] cursor-pointer " onclick="menubar()">
+                <div id="line_1" class="duration-200 w-8 h-1 bg-[#D6FF28] mt-1.5"></div>
+                <div id="line_2" class="duration-200 w-8 h-1 bg-[#D6FF28] mt-1.5"></div>
+                <div id="line_3" class="w-8 h-1 bg-[#D6FF28] mt-1.5"></div>
+            </div>
+        </nav>
+        <div class=" md:flex-row flex flex-col justify-center items-center gap-7 mt-20">
+            <div id="dark" class=" text-white  md:w-[50%] md:h-full md:flex flex justify-center items-center ">
+                <div class=" w-[80%] pt-7 md:pt-28 flex flex-col gap-3">
+                    <p class="uppercase tracking-[5px]">hello i'm</p>
+                    <h1 class="text-6xl font-bold">web designer & <br><span class="text-[#D6FF28]">developer</span></h1>
+                    <p class="uppercase">hi i am sandeep yadav, a passionate web developer from kanpur. welcome to my
+                        portfolio.</p>
+                    <button class="w-44 h-9 text-black bg-[#D6FF28] uppercase rounded-sm hover:bg-black hover:text-[#D6FF28] hover:border-[#D6FF28] hover:border-2">view portfolio</button>
+                </div>
+            </div>
+            <div id="image_1" class=" md:w-[50%] md:min-h-full md:pt-14 flex justify-end">
+                <div id="ring"
+                    class=" flex justify-center items-center mt-2 md:mt-14 lm:ml-[10rem] w-[20rem] h-[20rem] md:w-[25rem] md:h-[25rem]   rounded-full border-t-[.5rem] border-b-[.5rem] border-white bg-[50%] bg-no-repeat bg-cover bg-[url('../images/sandeep.jpg')] ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section part 1-->
+
+    <section id="about_me">
+        <div id="dark_1" class="flex flex-col-reverse md:flex md:flex-row text-white gap-7 mt-20">
+            <div id="image_2" class=" md:w-[50%] md:min-h-full md:pt-14 flex justify-center">
+                <div id="ring"
+                    class=" flex justify-center items-center mt-2 md:mt-14 lm:ml-[10rem] w-[20rem] h-[20rem] md:w-[25rem] md:h-[25rem]   rounded-full border-t-[.5rem] border-b-[.5rem] border-white bg-[50%] bg-no-repeat bg-cover bg-[url('../images/sandeep.jpg')] ">
+                </div>
+            </div>
+            <div id="dark_2" class="md:w-[50%] md:flex flex justify-center items-center">
+                <div class="md:w-[70%] w-[90%] md:flex flex-col gap-4">
+                    <div>
+                        <p class="uppercase tracking-[5px]">let me introduce myself</p>
+                        <h1 class="text-[#D6FF28] text-3xl font-bold">about me</h1>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl pb-3">a story of hardwork and perseverance</h2>
+                        <p class="font-extralight">hi, i'm sandeep, a web developer and designer specializing in
+                            creating visually engaging, user-friendly websides. My expertise blends innovative design
+                            with robust functionality to bring your digital ideas to life.</p>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl pb-3">contact</h2>
+                        <p class="font-extralight">do you fancy saying hi to me you want to get started with your
+                            project and you need my help? feel free to contact me.</p>
+                        <a class="text-[#D6FF28]" href="">www.sandeepydv701@gmail.com</a>
+
+                    </div>
+                    <button class="w-36 h-9 text-black bg-[#D6FF28] uppercase rounded-sm hover:bg-black hover:text-[#D6FF28] hover:border-[#D6FF28] hover:border-2">hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Services section part-2 -->
+    <section>
+        <div id="services" class="pt-24 text-white">
+            <div class="text-center mb-12">
+                <p id="services_1" class="uppercase tracking-[5px]">what i will do for you</p>
+                <h2 id="services_2" class="text-[#D6FF28] text-3xl font-bold">services</h2>
+            </div>
+            <div id="services_card_1" class="w-full md:flex md:flex-row flex flex-wrap flex-col md:gap-24 gap-14 items-center justify-center break-all">
+                <div 
+                    class="w-80 h-72 shadow-[0px_0px_130px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                    <div
+                        class="md:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
+                        <div class="w-[70%]">
+                            <div class="text-center">
+                                <div class="text-3xl text-[#D6FF28]"><i class="fa-solid fa-desktop"></i></div>
+                                <p class="uppercase tracking-[3px]">10 projects</p>
+                                <h2 class="text-2xl pb-3">web design</h2>
+                            </div>
+                            <p class="font-extralight">offering tailored web design services to craft visually stunnung,
+                                user-friendly websites that enhance your brand's presence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="services_card_2"
+                    class="w-80 h-72 shadow-[0px_0px_130px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                    <div
+                        class="md:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
+                        <div class="w-[70%]">
+                            <div class="text-center">
+                                <div class="text-3xl text-[#D6FF28]"><i class="fa-solid fa-marker"></i></div>
+                                <p class="uppercase tracking-[3px]">12 projects</p>
+                                <h2 class="text-2xl pb-3">UI & UX design</h2>
+                            </div>
+                            <p class="font-extralight">delivering exceptional UI/UX design services to enhance user experience and drive engagement with intuitive interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="services_card_3"
+                    class="w-80 h-72 shadow-[0px_0px_130px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                    <div
+                        class="md:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
+                        <div class="w-[70%]">
+                            <div class="text-center">
+                                <div class="text-3xl text-[#D6FF28]"><i class="fa-solid fa-file-code"></i></div>
+                                <p class="uppercase tracking-[3px]">10 projects</p>
+                                <h2 class="text-2xl pb-3">web development</h2>
+                            </div>
+                            <p class="font-extralight">offering expert web development services to create custom, scalable websites with seamless functionality and modern design.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio section part-3 -->
+    <section id="projects">
+        <div id="dark_3" class="pt-24 md:flex md:flex-col justify-center  items-center text-white md:mr-30 md:ml-20">
+            <div class="text-center mb-12">
+                <p id="portfolio_1" class="uppercase tracking-[5px]">some of my recent work</p>
+                <h2 id="portfolio_2" class="text-[#D6FF28] text-3xl font-bold">portfolio</h2>
+            </div>
+            <div class=" flex flex-col items-center md:w-[80%]">
+                <!-- portfolio card first -->
+                <div class="md:flex md:flex-row flex-wrap justify-center flex flex-col gap-20 pb-20">
+                    
+                    <div id="portfolio_card_1"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-cover bg-[url('../images/s.png')]">
+                               
+                            </div>
+                            <div class="w-[80%] pt-7">
+                            
+                                <div class="text-center">
+                                   <div class="w-16 h-7 text-black border-2 bg-[#D6FF28] rounded-md"> <a  href="https://sandeepydv20.github.io/TOURIST_PLACE_WEBSITE/">view</a></div>
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portfolio_card_2"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
+                            <div class="w-[80%] pt-7">
+                                <div class="text-center">
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portfolio_card_3"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
+                            <div class="w-[80%] pt-7">
+                                <div class="text-center">
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- portfolio card second line -->
+
+                <div class=" md:flex md:flex-row  flex flex-wrap justify-center flex-col gap-20">
+                    <!-- portfolio card 1 -->
+                    <div id="portfolio_card_4"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
+                            <div class="w-[80%] pt-7">
+                                <div class="text-center">
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portfolio_card_5"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
+                            <div class="w-[80%] pt-7">
+                                <div class="text-center">
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portfolio_card_6"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
+                            <div class="w-[80%] pt-7">
+                                <div class="text-center">
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--blogs section part- 4 -->
+
+    <section id="blogs">
+        <div id="dark_4" class="pt-20 md:flex md:flex-col justify-center  items-center text-white md:mr-30 md:ml-20">
+            <div id= dark_5" class="text-center mb-12">
+                <p id="blogs_1" class="uppercase tracking-[5px]"> recent blogs</p>
+                <h2 id="blogs_2" class="text-[#D6FF28] text-3xl font-bold">blogs</h2>
+            </div>
+            <div class=" flex flex-col items-center md:w-[80%]">
+                <div class="md:flex md:flex-row flex flex-wrap justify-center flex-col gap-20 pb-20">
+                    <!-- portfolio card 1 -->
+                    <div id="blogs_card_1"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
+                            <div class="w-[80%] pt-7">
+                                <div class="text-center">
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="blogs_card_2"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
+                            <div class="w-[80%] pt-7">
+                                <div class="text-center">
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="blogs_card_3"
+                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        <div
+                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
+                            <div class="w-[80%] pt-7">
+                                <div class="text-center">
+                                    <p class="uppercase tracking-[3px]">212 projects</p>
+                                    <h2 class="text-2xl pb-3">web design</h2>
+                                </div>
+                                <p class="break-all font-extralight">offering tailored web design services to craft
+                                    visually stunnung,
+                                    user-friendly websites that enhance your brand's presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact section part-4 -->
+     <section class="w-full md:w-full min-h-[700px] flex justify-center items-center">
+        <div id="contact"  class="md:w-[35%] w-[90%]  min-h-[600px]">
+            <div id=" dark_6" class="text-center  mb-12">
+                <p id="contact_1" class="uppercase tracking-[5px] text-white">any question</p>
+                <h2 id="contact_2" class="text-[#D6FF28] text-3xl font-bold">contact me</h2>
+            </div>
+            <div id="contact_me" class="md:w-[100%] w-[100%] h-[520px] bg-[#D6FF28] rounded-lg flex flex-col justify-evenly items-center">
+               <div class="w-full flex justify-center"><input class="w-[80%] h-9 md:h-10 rounded-lg pl-5 border-2 border-black" type="text" placeholder="Your Name"></div>
+               <div class="w-full flex justify-center"><input class="w-[80%] h-9 md:h-10 rounded-lg pl-5 border-2 border-black" type="email" placeholder="Your Email"></div>
+               <div class="w-full flex justify-center"><input class="w-[80%] h-9 md:h-10 rounded-lg pl-5 border-2 border-black" type="text" placeholder="Your Subject"></div>
+               <div class="w-full flex justify-center">
+                <textarea class="w-[80%] h-28 md:h-10 rounded-lg pl-5 border-2 border-black" placeholder="Your Message" name="" id=""></textarea>
+               </div>
+              
+               <button class="w-40 h-10 bg-black capitalize text-white  hover:text-black hover:border-black hover:border-2 hover:bg-[#96a940] rounded-md">send message</button>
+            </div>
+        </div>
+     </section>
+     <footer>
+        <div class="md:flex justify-around">
+            <div class="flex gap-10">
+                <a id="link_1" class="text-yellow-300 text-4xl hover:text-blue-300" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a id="link_2" class="text-yellow-300 text-4xl hover:text-blue-300" href="https://www.instagram.com/ggn__ydv_701/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a id="link_3" class="text-yellow-300 text-4xl hover:text-blue-300" href="https://www.linkedin.com/in/sandeep-yadav-880b54320/"><i class="fa-brands fa-linkedin"></i></a>
+                <a id="link_4" class="text-yellow-300 text-4xl hover:text-blue-300" href="https://mail.google.com/mail/u/0/"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div>
+                <p id="dark_7" class="text-white capitalize">coopyright &#169 2024-all rights are reserved by sandeep20</p>
+            </div>
+        </div>
+     </footer>
+    
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="./src/script.js"></script>
+    </div>
+</body>
+
+</html>
