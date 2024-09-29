@@ -39,54 +39,54 @@ function Mode(){
     document.getElementById('dark_7').classList.toggle('text-gray-900');
 }
 
-gsap.from("#logo",{
-    x:-200,
-    opacity:0,
-    duration:1,
-    ease:''
-}
-)
-// // section part-1
+// gsap.from("#logo",{
+//     x:-200,
+//     opacity:0,
+//     duration:1,
+//     ease:''
+// }
+// )
+// // // section part-1
 
-gsap.from("#dark",{
-    x:-200,
-    opacity:0,
-    duration:2,
+// gsap.from("#dark",{
+//     x:-200,
+//     opacity:0,
+//     duration:2,
     
-})
-gsap.from("#image_1",{
-    x:200,
-    opacity:0,
-    duration:2,
+// })
+// gsap.from("#image_1",{
+//     x:200,
+//     opacity:0,
+//     duration:2,
     
-})
+// })
 // // section part-1 end
 
 // // section part-2
 
-gsap.from("#dark_2",{
-    x:200,
-    opacity:0,
-    duration:2,
-    scrollTrigger:{
-        trigger:"#dark_2",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
+// gsap.from("#dark_2",{
+//     x:200,
+//     opacity:0,
+//     duration:2,
+//     scrollTrigger:{
+//         trigger:"#dark_2",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
     
-})
-gsap.from("#image_2",{
-    x:-200,
-    opacity:0,
-    duration:2,
-    scrollTrigger:{
-        trigger:"#image_2",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    } 
-})
+// })
+// gsap.from("#image_2",{
+//     x:-200,
+//     opacity:0,
+//     duration:2,
+//     scrollTrigger:{
+//         trigger:"#image_2",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     } 
+// })
 // // section part-2 end
 
 // // section part-3
@@ -338,55 +338,55 @@ gsap.from("#image_2",{
 //contact_me part end
 
 //link part
-gsap.from("#link_1",{
-    y:-200,
-    ease:"bounce",
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#link_1",
-        scroller:"body",
-        // markers:true,
+// gsap.from("#link_1",{
+//     y:-200,
+//     ease:"bounce",
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#link_1",
+//         scroller:"body",
+//         // markers:true,
         
-    }  
-})
-gsap.from("#link_2",{
-    y:-200,
-    ease:"bounce",
-    delay:.5,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#link_2",
-        scroller:"body",
-        // markers:true,
+//     }  
+// })
+// gsap.from("#link_2",{
+//     y:-200,
+//     ease:"bounce",
+//     delay:.5,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#link_2",
+//         scroller:"body",
+//         // markers:true,
         
-    }  
-})
-gsap.from("#link_3",{
-    y:-200,
-    ease:"bounce",
-    delay:1,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#link_3",
-        scroller:"body",
-        // markers:true,
+//     }  
+// })
+// gsap.from("#link_3",{
+//     y:-200,
+//     ease:"bounce",
+//     delay:1,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#link_3",
+//         scroller:"body",
+//         // markers:true,
         
-    }  
-})
-gsap.from("#link_4",{
-    y:-200,
-    ease:"bounce",
-    delay:1.5,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#link_4",
-        scroller:"body",
-        // markers:true,
+//     }  
+// })
+// gsap.from("#link_4",{
+//     y:-200,
+//     ease:"bounce",
+//     delay:1.5,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#link_4",
+//         scroller:"body",
+//         // markers:true,
         
-    }  
-})
+//     }  
+// })
 //link part end
