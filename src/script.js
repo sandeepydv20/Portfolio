@@ -90,228 +90,228 @@ gsap.from("#image_2",{
 // // section part-2 end
 
 // // section part-3
-gsap.from("#services_1",{
-    x:-200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#services_1",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
+// gsap.from("#services_1",{
+//     x:-200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#services_1",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
     
-})
-gsap.from("#services_2",{
-    x:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#services_2",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
-})
-// // section part-3 end
+// })
+// gsap.from("#services_2",{
+//     x:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#services_2",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
+// })
+// // // section part-3 end
 
-// // section part-4
+// // // section part-4
 
-gsap.from("#services_card_1",{
-    y:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#services_card_1",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
-})
+// gsap.from("#services_card_1",{
+//     y:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#services_card_1",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
+// })
 
 
-// // section part-4 end
+// // // section part-4 end
 
-// portfolio part
+// // portfolio part
 
-gsap.from("#portfolio_1",{
-    x:-200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#portfolio_1",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
+// gsap.from("#portfolio_1",{
+//     x:-200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#portfolio_1",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
     
-})
-gsap.from("#portfolio_2",{
-    x:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#portfolio_2",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
-})
+// })
+// gsap.from("#portfolio_2",{
+//     x:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#portfolio_2",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
+// })
 
-// portfolio part end
+// // portfolio part end
 
-// portfolio card 1 part 
+// // portfolio card 1 part 
 
-gsap.from("#portfolio_card_1",{
-    x:-200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#portfolio_card_1",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }  
-})
-gsap.from("#portfolio_card_2",{
-    y:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#portfolio_card_2",
-        scroller:"body",
-        // markers:true,
-        start:"top 70%"
-    }  
-})
-gsap.from("#portfolio_card_3",{
-    x:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#portfolio_card_3",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }  
-})
+// gsap.from("#portfolio_card_1",{
+//     x:-200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#portfolio_card_1",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }  
+// })
+// gsap.from("#portfolio_card_2",{
+//     y:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#portfolio_card_2",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 70%"
+//     }  
+// })
+// gsap.from("#portfolio_card_3",{
+//     x:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#portfolio_card_3",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }  
+// })
 
-// portfolio card 1 part end
+// // portfolio card 1 part end
 
-// portfolio card 2 part 
+// // portfolio card 2 part 
  
-gsap.from("#portfolio_card_4",{
-    x:-200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#portfolio_card_4",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }  
-})
-gsap.from("#portfolio_card_5",{
-    y:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#portfolio_card_5",
-        scroller:"body",
-        // markers:true,
-        start:"top 70%"
-    }  
-})
-gsap.from("#portfolio_card_6",{
-    x:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#portfolio_card_6",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }  
-})
-// portfolio card 2 part  end
+// gsap.from("#portfolio_card_4",{
+//     x:-200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#portfolio_card_4",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }  
+// })
+// gsap.from("#portfolio_card_5",{
+//     y:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#portfolio_card_5",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 70%"
+//     }  
+// })
+// gsap.from("#portfolio_card_6",{
+//     x:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#portfolio_card_6",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }  
+// })
+// // portfolio card 2 part  end
 
-//blogs part
+// //blogs part
 
-gsap.from("#blogs_1",{
-    x:-200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#blogs_1",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
+// gsap.from("#blogs_1",{
+//     x:-200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#blogs_1",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
     
-})
-gsap.from("#blogs_2",{
-    x:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#blogs_2",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
-})
-//blogs part end
+// })
+// gsap.from("#blogs_2",{
+//     x:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#blogs_2",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
+// })
+// //blogs part end
 
-//blogs card
-gsap.from("#blogs_card_1",{
-    x:-200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#blogs_card_1",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }  
-})
-gsap.from("#blogs_card_2",{
-    y:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#blogs_card_2",
-        scroller:"body",
-        // markers:true,
-        start:"top 70%"
-    }  
-})
-gsap.from("#blogs_card_3",{
-    x:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#blogs_card_3",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }  
-})
-//blogs card end
+// //blogs card
+// gsap.from("#blogs_card_1",{
+//     x:-200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#blogs_card_1",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }  
+// })
+// gsap.from("#blogs_card_2",{
+//     y:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#blogs_card_2",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 70%"
+//     }  
+// })
+// gsap.from("#blogs_card_3",{
+//     x:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#blogs_card_3",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }  
+// })
+// //blogs card end
 
-//contact part
+// //contact part
 
-gsap.from("#contact_1",{
-    x:-200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#contact_1",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
+// gsap.from("#contact_1",{
+//     x:-200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#contact_1",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
     
-})
+// })
 // gsap.from("#contact_2",{
 //     x:200,
 //     opacity:0,
