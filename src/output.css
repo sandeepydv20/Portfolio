@@ -866,6 +866,10 @@ video {
   height: 7rem;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
 .h-72 {
   height: 18rem;
 }
@@ -898,22 +902,6 @@ video {
   height: 60%;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-60 {
-  height: 15rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-7 {
-  height: 1.75rem;
-}
-
 .min-h-\[600px\] {
   min-height: 600px;
 }
@@ -928,6 +916,10 @@ video {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .w-36 {
@@ -992,10 +984,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .flex-shrink {
@@ -2081,21 +2069,32 @@ video {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+.bg-\[url\(\'\.\.\/images\/s\.png\'\)\] {
+  background-image: url('../images/s.png');
 }
 
 .bg-\[url\(\'\.\.\/images\/sandeep\.jpg\'\)\] {
   background-image: url('../images/sandeep.jpg');
 }
 
-.bg-\[url\(\'s\.png\'\)\] {
-  background-image: url('s.png');
+.bg-\[url\(\'\.\/Images\/sandeep\.jpg\'\)\] {
+  background-image: url('./Images/sandeep.jpg');
 }
 
-.bg-\[url\(\'\.\.\/images\/s\.png\'\)\] {
-  background-image: url('../images/s.png');
+.bg-\[url\(\'\.\/images\/sandeep\.jpg\'\)\] {
+  background-image: url('./images/sandeep.jpg');
+}
+
+.bg-\[url\(\'sandeep\.jpg\'\)\] {
+  background-image: url('sandeep.jpg');
+}
+
+.bg-\[url\(\'\.\/sandeep\.jpg\'\)\] {
+  background-image: url('./sandeep.jpg');
+}
+
+.bg-\[url\(\'s\.png\'\)\] {
+  background-image: url('s.png');
 }
 
 .decoration-slice {
