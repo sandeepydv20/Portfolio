@@ -312,29 +312,29 @@ gsap.from("#contact_1",{
     }
     
 })
-gsap.from("#contact_2",{
-    x:200,
-    opacity:0,
-    duration:1,
-    scrollTrigger:{
-        trigger:"#contact_2",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }
-})
+// gsap.from("#contact_2",{
+//     x:200,
+//     opacity:0,
+//     duration:1,
+//     scrollTrigger:{
+//         trigger:"#contact_2",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }
+// })
 //contact part end
 //contact_me part end
-gsap.from("#contact_me",{
-    opacity:0,
-    duration:3,
-    scrollTrigger:{
-        trigger:"#contact_me",
-        scroller:"body",
-        // markers:true,
-        start:"top 60%"
-    }  
-})
+// gsap.from("#contact_me",{
+//     opacity:0,
+//     duration:3,
+//     scrollTrigger:{
+//         trigger:"#contact_me",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 60%"
+//     }  
+// })
 //contact_me part end
 
 //link part
