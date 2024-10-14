@@ -6,7 +6,7 @@ function menubar(){
     document.querySelector('ul').classList.toggle("w-[49.5%]");
     document.querySelector('ul').classList.toggle("item-center");
     // document.querySelector('ul').classList.toggle("text-md");
-    document.getElementById("mode").classList.toggle('hidden');
+    document.getElementById("mode-changer").classList.toggle('hidden');
     
 
     document.getElementById('line_1').classList.toggle('rotate-45')
@@ -16,27 +16,30 @@ function menubar(){
     document.getElementById('line_3').classList.toggle('hidden')
 }
 
-const navLinks = document.querySelectorAll('.nav-link');
-navLinks.forEach(link => {
-    link.addEventListener('click', function() {
-        const navbar = document.getElementById('menu');
-        navbar.classList.remove('active'); // Close nav on link click
-    });
-});
+// // const navLinks = document.querySelectorAll('.nav-link');
+// // navLinks.forEach(link => {
+// //     link.addEventListener('click', function() {
+// //         const navbar = document.getElementById('menu');
+// //         navbar.classList.remove('active'); // Close nav on link click
+// //     });
+// // });
 
 
 function Mode(){
-    document.getElementById('mode').classList.toggle('bg-silver-100');
-    document.getElementById('mode_icon').classList.toggle('text-black');
-    document.querySelector('body').classList.toggle('bg-white');
-    document.getElementById('dark').classList.toggle('text-gray-900');
-    document.getElementById('dark_1').classList.toggle('text-gray-900');
-    document.getElementById('dark_2').classList.toggle('text-gray-900');
-    document.getElementById('dark_3').classList.toggle('text-gray-900');
-    document.getElementById('dark_4').classList.toggle('text-gray-900');
-    document.getElementById('dark_5').classList.toggle('text-gray-900');
-    document.getElementById('dark_6').classList.toggle('text-gray-900');
-    document.getElementById('dark_7').classList.toggle('text-gray-900');
+   
+    document.getElementById('menu-1').classList.toggle('bg-[grey]');
+    document.querySelector('div').classList.toggle('bg-[silver]/90');
+    document.querySelector('div').classList.toggle('text-[black]');
+  let changecolor = document.getElementsByClassName('bg-[#1C2326]');
+     
+   for (const change of changecolor) {
+    change.classList.toggle('bg-[grey]');
+   }
+       
+    
+    
+
+   
 }
 
 gsap.from("#logo",{
@@ -49,13 +52,13 @@ gsap.from("#logo",{
 // // section part-1
 
 gsap.from("#dark",{
-    x:-200,
+    y:50,
     opacity:0,
     duration:2,
     
 })
 gsap.from("#image_1",{
-    x:200,
+    y:50,
     opacity:0,
     duration:2,
     
@@ -65,52 +68,52 @@ gsap.from("#image_1",{
 // // section part-2
 
 gsap.from("#dark_2",{
-    x:200,
+    y:200,
     opacity:0,
     duration:2,
     scrollTrigger:{
         trigger:"#dark_2",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
     
 })
 gsap.from("#image_2",{
-    x:-200,
+    y:200,
     opacity:0,
     duration:2,
     scrollTrigger:{
         trigger:"#image_2",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     } 
 })
 // // section part-2 end
 
 // // section part-3
 gsap.from("#services_1",{
-    x:-200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#services_1",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
     
 })
 gsap.from("#services_2",{
-    x:200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#services_2",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
 })
 // // section part-3 end
@@ -125,7 +128,7 @@ gsap.from("#services_card_1",{
         trigger:"#services_card_1",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
 })
 
@@ -135,26 +138,26 @@ gsap.from("#services_card_1",{
 // portfolio part
 
 gsap.from("#portfolio_1",{
-    x:-200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#portfolio_1",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
     
 })
 gsap.from("#portfolio_2",{
-    x:200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#portfolio_2",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
 })
 
@@ -163,14 +166,14 @@ gsap.from("#portfolio_2",{
 // portfolio card 1 part 
 
 gsap.from("#portfolio_card_1",{
-    x:-200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#portfolio_card_1",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }  
 })
 gsap.from("#portfolio_card_2",{
@@ -181,18 +184,18 @@ gsap.from("#portfolio_card_2",{
         trigger:"#portfolio_card_2",
         scroller:"body",
         // markers:true,
-        start:"top 70%"
+        start:"top 100%"
     }  
 })
 gsap.from("#portfolio_card_3",{
-    x:200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#portfolio_card_3",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }  
 })
 
@@ -201,14 +204,14 @@ gsap.from("#portfolio_card_3",{
 // portfolio card 2 part 
  
 gsap.from("#portfolio_card_4",{
-    x:-200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#portfolio_card_4",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }  
 })
 gsap.from("#portfolio_card_5",{
@@ -219,18 +222,18 @@ gsap.from("#portfolio_card_5",{
         trigger:"#portfolio_card_5",
         scroller:"body",
         // markers:true,
-        start:"top 70%"
+        start:"top 100%"
     }  
 })
 gsap.from("#portfolio_card_6",{
-    x:200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#portfolio_card_6",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }  
 })
 // portfolio card 2 part  end
@@ -238,40 +241,40 @@ gsap.from("#portfolio_card_6",{
 //blogs part
 
 gsap.from("#blogs_1",{
-    x:-200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#blogs_1",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
     
 })
 gsap.from("#blogs_2",{
-    x:200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#blogs_2",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
 })
 //blogs part end
 
 //blogs card
 gsap.from("#blogs_card_1",{
-    x:-200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#blogs_card_1",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }  
 })
 gsap.from("#blogs_card_2",{
@@ -282,18 +285,18 @@ gsap.from("#blogs_card_2",{
         trigger:"#blogs_card_2",
         scroller:"body",
         // markers:true,
-        start:"top 70%"
+        start:"top 100%"
     }  
 })
 gsap.from("#blogs_card_3",{
-    x:200,
+    y:200,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#blogs_card_3",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }  
 })
 //blogs card end
@@ -301,26 +304,26 @@ gsap.from("#blogs_card_3",{
 //contact part
 
 gsap.from("#contact_1",{
-    x:-200,
+    y:100,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#contact_1",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
     
 })
 gsap.from("#contact_2",{
-    x:200,
+    y:100,
     opacity:0,
     duration:1,
     scrollTrigger:{
         trigger:"#contact_2",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 100%"
     }
 })
 //contact part end
@@ -332,7 +335,7 @@ gsap.from("#contact_me",{
         trigger:"#contact_me",
         scroller:"body",
         // markers:true,
-        start:"top 60%"
+        start:"top 50%"
     }  
 })
 //contact_me part end
