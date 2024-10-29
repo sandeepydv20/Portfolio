@@ -566,16 +566,12 @@ video {
   position: relative;
 }
 
-.left-60 {
-  left: 15rem;
+.left-56 {
+  left: 14rem;
 }
 
 .top-8 {
   top: 2rem;
-}
-
-.left-56 {
-  left: 14rem;
 }
 
 .z-50 {
@@ -946,6 +942,14 @@ video {
 
 .bg-\[url\(\'src\/images\/sandeep\.jpg\'\)\] {
   background-image: url('src/images/sandeep.jpg');
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/s\.png\'\)\] {
+  background-image: url('../src/images/s.png');
+}
+
+.bg-\[url\(\'\.\.\/src\/images\/sandeep\.jpg\'\)\] {
+  background-image: url('../src/images/sandeep.jpg');
 }
 
 .bg-cover {
