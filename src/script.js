@@ -1,15 +1,47 @@
 
+// navLinks globally declared
+
+var navLinks = document.querySelectorAll('.nav-link')
+
+// scroll navigation activate link
+
+window.addEventListener('scroll',()=> {
+    let scrollPosition =document.documentElement.scrollTop || document.body.scrollTop;
+
+    navLinks.forEach(link => {
+        const section =document.querySelector(link.getAttribute('href'));
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            navLinks.forEach(l => l.classList.remove('text-[yellow]'));
+            link.classList.add('text-[yellow]')
+        }
+    })
+})
+
+
+
+// navLinks.forEach(link => {
+//     link.addEventListener('click',function(){
+//         navLinks.forEach(l => l.classList.remove('text-[yellow]'));
+//         this.classList.add('text-[yellow]')
+//     });
+// });
+
 function menubar(){ 
     navslide();
     hamburger();
-    var navLinks = document.querySelectorAll('.nav-link')
+   
+    // click on link to close navbar
+    // navLinks declared and initialized on top...
     navLinks.forEach(e => {
         e.addEventListener('click',() => {      
            menubar()  
         })
         }) 
-
 }
+
 
 function navslide(){
     document.getElementById("menu").classList.toggle('h-screen');
@@ -46,6 +78,9 @@ function Mode(){
     change.classList.toggle('bg-[grey]');
    } 
 }
+
+
+// contact validation...
 
 const name =document.getElementById('name');
  Name = (e) => {
