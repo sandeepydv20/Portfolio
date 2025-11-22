@@ -18,14 +18,14 @@
 <body id="smooth-wrapper" class="font-[poppins,sans-serif] text-white text-sm md:text-base bg-gray-950 capitalize w-full">
     <div id="mode">
     <div id="home" class="font-[500] lg:flex flex flex-col items-center  min-h-[720px] border-solid w-full">
-        <nav id="menu" class="  fixed z-50  h-16 lg:w-[90%]  w-full md:w-full  backdrop-blur-2xl shadow-md shadow-[#000] rounded-xl duration-300">
+        <nav id="menu" class="  fixed z-50  h-16 lg:w-[95%] xl:w-[90%]  w-full md:w-full  backdrop-blur-2xl shadow-md shadow-[#000] rounded-xl duration-300">
            <div id="menu-1" class="flex h-full md:flex justify-around lg:pt-1 pt-4 lg:items-center rounded-xl ">
-            <div id="logo" class="flex text-3xl">
+            <div id="logo" class="flex ml-2 text-3xl">
                 <span class="w-10 h-10 rounded-lg flex justify-center items-center  bg-[#D6FF28] text-black">S</span>
                 <h1 class="lowercase hidden md:flex">andeep.</h1>
             </div>
             
-            <ul class=" lg:flex lg:ml-20 lg:w-[60%] lg:flex-row lg:justify-between lg:mt-1 opacity-0 duration-300 lg:opacity-100 flex flex-col gap-14 mt-20  w-10  items-center">
+            <ul class=" lg:flex lg:ml-12 xl:ml-20 lg:w-[70%] lg:flex-row lg:justify-between lg:mt-1 opacity-0 duration-300 lg:opacity-100 flex flex-col gap-8 xl:gap-14 mt-20  w-10  items-center">
                 <li class="text-center hover:text-[#D6FF28]"><a id="homeLink" class="nav-link" href="#home">Home</a></li>
                 <li class="text-center hover:text-[#D6FF28]"><a id="aboutLink" class="nav-link" href="#about_me">About</a></li>
                 <li class="text-center hover:text-[#D6FF28]"><a class="nav-link" href="#services">Services</a></li>
@@ -34,7 +34,7 @@
                 <button class="w-36 h-9   md:mt-[-3px] mt-10   text-black bg-[#D6FF28] uppercase rounded-sm hover:bg-black hover:text-[#D6FF28] hover:border-[#D6FF28] hover:border-2"><a class="nav-link" href="#contact">contect me</a></button>
             </ul>
 
-            <div onclick="Mode()" id="mode-changer" class="flex justify-center items-center text-2xl w-10 h-10 border-2 border-[#D6FF28] rounded-md bg-gray-500">
+            <div onclick="Mode()" id="mode-changer" class="flex ml-3 justify-center items-center text-2xl w-10 h-10 border-2 border-[#D6FF28] rounded-md bg-gray-500">
                 <div><i id="mode_icon" class="fa-solid fa-moon"></i></div>
             </div>
            
@@ -57,9 +57,9 @@
                     <button class="w-44 h-9 text-black bg-[#D6FF28] uppercase rounded-sm hover:bg-black hover:text-[#D6FF28] hover:border-[#D6FF28] hover:border-2">view portfolio</button>
                 </div>
             </div>
-            <div id="image_1" class=" md:w-[50%] md:min-h-full md:pt-14 flex justify-end">
+            <div id="image_1" class=" md:w-[50%] md:min-h-full md:pt-14 flex justify-center">
                 <div id="ring"
-                    class=" flex justify-center items-center mt-2 md:mt-14 lm:ml-[10rem] w-[20rem] h-[20rem] md:w-[25rem] md:h-[25rem]   rounded-full border-t-[.5rem] border-b-[.5rem] border-white bg-[50%] bg-no-repeat bg-cover bg-[url('../src/images/sandeep.jpg')] ">
+                    class=" flex justify-center items-center mt-2 md:mt-14 lm:ml-[10rem] w-[20rem] h-[20rem] md:w-[25rem] md:h-[25rem]   rounded-full border-t-[.5rem] border-b-[.5rem] border-white bg-[50%] bg-no-repeat bg-cover bg-[url('../src/images/sandeep1.jpg')] ">
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
         <div id="dark_1" class="flex flex-col-reverse md:flex md:flex-row gap-7 mt-20">
             <div id="image_2" class=" md:w-[50%] md:min-h-full md:pt-14 flex justify-center">
                 <div id="ring"
-                    class=" flex justify-center items-center mt-2 md:mt-14 lm:ml-[10rem] w-[20rem] h-[20rem] md:w-[25rem] md:h-[25rem]   rounded-full border-t-[.5rem] border-b-[.5rem] border-white bg-[50%] bg-no-repeat bg-cover bg-[url('../src/images/sandeep.jpg')] ">
+                    class=" flex justify-center items-center mt-2 md:mt-14 lm:ml-[10rem] w-[20rem] h-[20rem] md:w-[25rem] md:h-[25rem]   rounded-full border-t-[.5rem] border-b-[.5rem] border-white bg-[50%] bg-no-repeat bg-cover bg-[url('../src/images/sandeep1.jpg')] ">
                 </div>
             </div>
             <div id="dark_2" class="md:w-[50%] md:flex flex justify-center items-center">
@@ -106,11 +106,11 @@
                 <p id="services_1" class="uppercase tracking-[5px]">what i will do for you</p>
                 <h2 id="services_2" class="text-[#D6FF28] text-3xl font-bold">services</h2>
             </div>
-            <div  class="w-full md:flex md:flex-row flex flex-wrap flex-col md:gap-24 gap-14 items-center justify-center break-all">
+            <div  class="flex  flex-col gap-8 md:flex-row md:flex-wrap lg:flex-nowrap items-center xl:gap-32 justify-center break-all">
                 <div id="services_card_1"
                     class="w-80 h-72 shadow-[0px_0px_130px_-40px_yellow] rounded-full flex items-center relative justify-center">
                     <div id="card_mode"
-                        class="  md:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
+                        class="  md:w-80 xl:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
                         <div class="w-[70%]">
                             <div class="text-center">
                                 <div class="text-3xl text-[#D6FF28]"><i class="fa-solid fa-desktop"></i></div>
@@ -125,7 +125,7 @@
                 <div id="services_card_2"
                     class="w-80 h-72 shadow-[0px_0px_130px_-40px_yellow] rounded-full flex items-center relative justify-center">
                     <div
-                        class="md:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
+                        class="md:w-80 xl:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
                         <div class="w-[70%]">
                             <div class="text-center">
                                 <div class="text-3xl text-[#D6FF28]"><i class="fa-solid fa-marker"></i></div>
@@ -139,7 +139,7 @@
                 <div id="services_card_3"
                     class="w-80 h-72 shadow-[0px_0px_130px_-40px_yellow] rounded-full flex items-center relative justify-center">
                     <div
-                        class="md:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
+                        class="md:w-80 xl:w-96 absolute w-[350px] h-72 bg-[#1C2326] flex justify-center items-center rounded-lg">
                         <div class="w-[70%]">
                             <div class="text-center">
                                 <div class="text-3xl text-[#D6FF28]"><i class="fa-solid fa-file-code"></i></div>
@@ -157,19 +157,19 @@
 
     <!--Portfolio section part-3 -->
     <section id="projects">
-        <div id="dark_3" class="pt-24 md:flex md:flex-col justify-center  items-center  md:mr-30 md:ml-20">
+        <div id="dark_3" class="pt-24 md:flex md:flex-col justify-center  items-center  md:mr-30">
             <div class="text-center mb-12">
                 <p id="portfolio_1" class="uppercase tracking-[5px]">some of my recent work</p>
                 <h2 id="portfolio_2" class="text-[#D6FF28] text-3xl font-bold">projects</h2>
             </div>
-            <div class=" flex flex-col items-center md:w-[80%]">
+            <div class=" flex flex-col items-center">
                 <!-- portfolio card first -->
-                <div class="md:flex md:flex-row flex-wrap justify-center flex flex-col gap-20 pb-20">
+                <div class="flex flex-col gap-8 md:flex md:flex-row md:flex-wrap md:gap-10 lg:flex-nowrap lg:gap-8 items-center justify-center pb-20">
                     
                     <div id="portfolio_card_1"
-                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        class="xl:w-96 lg:w-72 w-80 xl:h-[450px] h-[400px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
                         <div
-                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            class="xl:w-96 lg:w-72  absolute w-[100%] xl:h-[450px] h-[400px] bg-[#1C2326] flex flex-col items-center rounded-lg">
                             <div class="w-full h-[45%] bg-cover bg-[url('../src/images/s.png')]">
                                
                             </div>
@@ -185,9 +185,9 @@
                         </div>
                     </div>
                     <div id="portfolio_card_2"
-                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                        class="xl:w-96 lg:w-72 w-80 xl:h-[450px] h-[400px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
                         <div
-                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            class="xl:w-96 lg:w-72 absolute w-[100%] xl:h-[450px] h-[400px] bg-[#1C2326] flex flex-col items-center rounded-lg">
                             <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
                             <div class="w-[80%] pt-7">
                                 <div class="text-center">
@@ -200,10 +200,10 @@
                             </div>
                         </div>
                     </div>
-                    <div id="portfolio_card_3"
-                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                  <div id="portfolio_card_3"
+                        class="xl:w-96 lg:w-72 w-80 xl:h-[450px] h-[400px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
                         <div
-                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            class="xl:w-96 lg:w-72 absolute w-[100%] xl:h-[450px] h-[400px] bg-[#1C2326] flex flex-col items-center rounded-lg">
                             <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
                             <div class="w-[80%] pt-7">
                                 <div class="text-center">
@@ -216,16 +216,15 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <!-- portfolio card second line -->
 
-                <div class=" md:flex md:flex-row  flex flex-wrap justify-center flex-col gap-20">
+                <div class="flex flex-col gap-8 md:flex md:flex-row md:flex-wrap md:gap-10 lg:flex-nowrap lg:gap-8 items-center justify-center pb-20">
                     <!-- portfolio card 1 -->
-                    <div id="portfolio_card_4"
-                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                  <div id="portfolio_card_4"
+                        class="xl:w-96 lg:w-72 w-80 xl:h-[450px] h-[400px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
                         <div
-                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            class="xl:w-96 lg:w-72 absolute w-[100%] xl:h-[450px] h-[400px] bg-[#1C2326] flex flex-col items-center rounded-lg">
                             <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
                             <div class="w-[80%] pt-7">
                                 <div class="text-center">
@@ -238,10 +237,10 @@
                             </div>
                         </div>
                     </div>
-                    <div id="portfolio_card_5"
-                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                     <div id="portfolio_card_5"
+                        class="xl:w-96 lg:w-72 w-80 xl:h-[450px] h-[400px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
                         <div
-                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            class="xl:w-96 lg:w-72 absolute w-[100%] xl:h-[450px] h-[400px] bg-[#1C2326] flex flex-col items-center rounded-lg">
                             <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
                             <div class="w-[80%] pt-7">
                                 <div class="text-center">
@@ -254,10 +253,10 @@
                             </div>
                         </div>
                     </div>
-                    <div id="portfolio_card_6"
-                        class="w-80 h-[450px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
+                     <div id="portfolio_card_6"
+                        class="xl:w-96 lg:w-72 w-80 xl:h-[450px] h-[400px] shadow-[0px_0px_100px_-40px_yellow] rounded-full flex items-center relative justify-center">
                         <div
-                            class="md:w-80 absolute w-[100%] h-[450px] bg-[#1C2326] flex flex-col items-center rounded-lg">
+                            class="xl:w-96 lg:w-72 absolute w-[100%] xl:h-[450px] h-[400px] bg-[#1C2326] flex flex-col items-center rounded-lg">
                             <div class="w-full h-[45%] bg-yellow-300 rounded-lg">hello</div>
                             <div class="w-[80%] pt-7">
                                 <div class="text-center">
@@ -270,7 +269,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -278,60 +276,56 @@
     <!--blogs section part- 4 -->
 
     <section id="blogs">
-        <div id="dark_4" class="pt-20 md:flex md:flex-col justify-center  items-center md:mr-30 md:ml-20">
+        <div id="dark_4" class="pt-20 md:flex md:flex-col justify-center md:mr-30 md:m-6">
             <div id= dark_5" class="text-center mb-12">
                 <p id="blogs_1" class="uppercase tracking-[5px]"> recent skill</p>
                 <h2 id="blogs_2" class="text-[#D6FF28] text-3xl font-bold">skills</h2>
             </div>
-            <div class=" md:flex flex flex-col justify-center items-center md:w-[80%] ">
-              <div class="md:flex md:flex-row flex-wrap flex flex-col items-center gap-32 w-[100%] text-[#d6ff28]">
-                <div id="blogs_card_1" class="flex justify-between w-96  md:w-[500px]">
-                    <div class="text-center text-3xl">
+            <div>
+              <div class="flex justify-center text-[#d6ff28]">
+                <div class="xl:w-[80%]">
+                    <div class="flex flex-wrap gap-14 justify-center">
+                    <div id="blogs_card_1" class="md:w-40 md:h-40 w-36 h-36 text-center text-3xl">
                         <p>HTML</p>
                     <div class="flex justify-center items-center rounded-xl md:w-40 md:h-40 w-36 h-36 bg-[#1C2326] "><img  class="h-28 w-28" src="src/images/html1.png" alt=""></div>
                     </div>
-                    <div class="text-center text-3xl">
+                    <div id="blogs_card_1" class="md:w-40 md:h-40 w-36 h-36 text-center text-3xl">
                         <p>CSS</p>
                     <div class="flex justify-center items-center rounded-xl md:w-40 md:h-40 w-36 h-36 bg-[#1C2326] "><img  class="h-28 w-28" src="src/images/css.png" alt=""></div>              
                     </div>
-                  </div>
-                  <div id="blogs_card_2" class="flex justify-between w-96 md:w-[500px]">
-                    <div class="text-center text-3xl">
+                     <div id="blogs_card_2" class="md:w-40 md:h-40 w-36 h-36 text-center text-3xl">
                         <p>TAILWIND</p>
                     <div class="flex justify-center items-center rounded-xl md:w-40 md:h-40 w-36 h-36 bg-[#1C2326] "><img  class="h-28 w-28" src="src/images/tailwind1.png" alt=""></div>                  
                     </div>
-                    <div class="text-center text-3xl">
+                    <div id="blogs_card_2" class="md:w-40 md:h-40 w-36 h-36 text-center text-3xl">
                         <p>JS</p>
                     <div class="flex justify-center items-center rounded-xl md:w-40 md:h-40 w-36 h-36 bg-[#1C2326] "><img class="h-28 w-28"  src="src/images/js2.png" alt=""></div>                 
                     </div>
-                  </div>
-                  <div id="blogs_card_3" class="flex justify-between w-96 md:w-[500px]">
-                    <div class="text-center text-3xl">
+                    <div id="blogs_card_3" class="md:w-40 md:h-40 w-36 h-36 text-center text-3xl">
                         <p>REACT</p>
                     <div class="flex justify-center items-center rounded-xl md:w-40 md:h-40 w-36 h-36 bg-[#1C2326] "><img  class="h-28 w-28" src="src/images/react1.png" alt=""></div>                    
                     </div>
-                    <div class="text-center text-3xl">
+                    <div id="blogs_card_3" class="md:w-40 md:h-40 w-36 h-36 text-center text-3xl">
                         <p>JAVA</p>
                     <div class="flex justify-center items-center rounded-xl md:w-40 md:h-40 w-36 h-36 bg-[#1C2326] "><img  class="h-28 w-28" src="src/images/java1.png" alt=""></div>                  
                     </div>
-                  </div>
-                  <div id="blogs_card_4" class="flex justify-between w-96  md:w-[500px]">
-                    <div class="text-center text-3xl">
+                    <div id="blogs_card_4" class="md:w-40 md:h-40 w-36 h-36 text-center text-3xl">
                         <p>MY SQL</p>
                     <div class="flex justify-center items-center rounded-xl md:w-40 md:h-40 w-36 h-36 bg-[#1C2326] "><img  class="h-28 w-28" src="src/images/sql1.png" alt=""></div>                    
                     </div>
-                    <div class="text-center text-3xl ">
+                    <div id="blogs_card_4" class="md:w-40 md:h-40 w-36 h-36 text-center text-3xl ">
                         <p>GSAP</p>
                     <div class="flex justify-center items-center rounded-xl md:w-40 md:h-40 w-36 h-36 bg-[#1C2326] "><img  class="h-28 w-28" src="src/images/gsap.png" alt=""></div>                   
                     </div>
                   </div>
+                </div>
               </div>
             </div>
         </div>
     </section>
     <!--Contact section part-4 -->
      <section id="contact" class="w-full md:w-full min-h-[700px] flex justify-center items-center">
-        <div   class="md:w-[35%] w-[90%]  min-h-[600px]">
+        <div   class="md:w-[50%] w-[90%]  min-h-[600px]">
             <div id=" dark_6" class="text-center  mb-12">
                 <p id="contact_1" class="uppercase tracking-[5px] ">any question</p>
                 <h2 id="contact_2" class="text-[#D6FF28] text-3xl font-bold">contact me</h2>
